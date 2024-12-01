@@ -1,0 +1,153 @@
+.button {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f0f0f0;
+    box-shadow: #333333 2px 2px 22px;
+    transform: scale(1.1);
+    animation-name: kavlion;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-delay: 4s;
+    color: white;
+    font-size: 18px;
+}
+.button2 {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: black;
+    box-shadow: #333333 2px 2px 22px;
+    transform: scale(1.1);
+    animation-name: vowe;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-delay: 5s;
+    color: white;
+    font-size: 18px;
+
+}
+button:hover {
+    background-color: #e0e0e0;
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+    
+
+}
+.fool {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+   
+    gap: 110px;
+    flex-wrap: wrap;
+}
+
+@keyframes kavlion {
+    0% {
+       background-color:red;
+       animation-delay: 4s;
+       color: white;
+
+    }
+    10% {
+        background-color: yellow;
+        animation-duration: 4s;
+        color: black;
+    }
+    20% {
+        background-color: blue;
+        color: white;
+    }
+    30% {
+        background-color: red;
+        color: white;
+    }
+    40% {
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        background-color: green;
+        color: white;
+    }
+    60% {
+        background-color: blue;
+        color: white;
+    }
+    70% {
+        background-color: red;
+        color: white;
+    }
+    80% {
+        background-color: yellow;
+        color: black;
+    }
+    90% {
+        background-color: green;
+        color: white;
+    }
+    100% {
+        background-color: #f0f0f0;
+        color: black;
+    }
+}
+@keyframes vowe {
+        0% {
+           background-color:red;
+           animation-delay: 4s;
+           color: white;
+    
+        }
+        10% {
+            background-color: yellow;
+            animation-duration: 4s;
+            color: black;
+        }
+        20% {
+            background-color: blue;
+            color: white;
+        }
+        30% {
+            background-color: red;
+            color: white;
+        }
+        40% {
+            background-color: yellow;
+            color: black;
+        }
+        50% {
+            background-color: green;
+            color: white;
+        }
+        60% {
+            background-color: blue;
+            color: white;
+        }
+        70% {
+            background-color: red;
+            color: white;
+        }
+        80% {
+            background-color: yellow;
+            color: black;
+        }
+        90% {
+            background-color: green;
+            color: white;
+        }
+        100% {
+            background-color: #f0f0f0;
+            color: black;
+        }
+    }
